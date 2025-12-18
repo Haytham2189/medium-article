@@ -1,0 +1,81 @@
+body {
+  margin: 0;
+  font-family: Georgia, serif;
+  color: #333;
+  background-color: #fafafa;
+}
+.banner {
+  background-image: url("images/banner.jpg");
+  background-size: cover;
+  background-position: center;
+  padding: 120px 0;
+}
+.banner-content {
+  width: 700px;
+  margin: 0 auto;
+  color: white;
+}
+.banner h1 {
+  font-size: 42px;
+  margin-bottom: 10px;
+}
+
+.banner p {
+  font-size: 20px;
+  opacity: 0.9;
+}
+.container {
+  width: 700px;
+  margin: 50px auto;
+}
+.container h2 {
+  font-size: 26px;
+  margin-top: 40px;
+}
+.container p {
+  font-size: 18px;
+  line-height: 1.8;
+}
+a {
+  color: #333;
+  text-decoration: none;
+  background-image: linear-gradient(to bottom, #a8edea 0%, #a8edea 100%);
+  background-size: 100% 30%;
+  background-repeat: no-repeat;
+  background-position: 0 88%;
+  transition: background-size 0.2s ease;
+}
+a:hover {
+  background-size: 100% 100%;
+}
+@media (max-width: 1200px) {
+  .container,
+  .banner-content {
+    width: 900px;
+  }
+}
+
+@media (max-width: 992px) {
+  .container,
+  .banner-content {
+    width: 700px;
+  }
+}
+
+@media (max-width: 768px) {
+  .container,
+  .banner-content {
+    width: 500px;
+  }
+}
+
+@media (max-width: 576px) {
+  .container,
+  .banner-content {
+    width: 90%;
+  }
+
+  .banner h1 {
+    font-size: 28px;
+  }
+}
